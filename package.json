@@ -1,12 +1,14 @@
 {
   "name": "gestao-consultas-api",
   "version": "1.0.0",
+  "testando": "acho que deu",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "test-db": "node src/database/test.js"
   },
   "keywords": [],
   "author": "",
@@ -21,9 +23,20 @@
     "prettier": "^3.5.3"
   },
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.0",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliaf-dev/Sistema_clinica.git"
+  },
+  "bugs": {
+    "url": "https://github.com/juliaf-dev/Sistema_clinica/issues"
+  },
+  "homepage": "https://github.com/juliaf-dev/Sistema_clinica#readme"
 }
